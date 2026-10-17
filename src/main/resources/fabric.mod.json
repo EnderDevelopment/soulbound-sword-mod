@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "soulboundswordmod",
+  "version": "${version}",
+  "name": "Soulbound Sword Mod",
+  "description": "A Fabric mod for Minecraft 1.21.4 featuring a Soulbound diamond sword with killstreak mechanics.",
+  "authors": ["YourName"],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/yourusername/soulboundswordmod"
+  },
+  "license": "MIT",
+  "icon": "assets/soulboundswordmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.daubaue.soulboundswordmod.SoulboundSwordMod"
+    ]
+  },
+  "mixins": [
+    "soulboundswordmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
